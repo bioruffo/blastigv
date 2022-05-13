@@ -52,7 +52,7 @@ def main(args):
         
 
 if __name__ == "__main__":
-    if len(sys.argv) > 0:
+    if len(sys.argv) > 1:
         main(sys.argv)
     else:
         print("Usage: blastigv.py <My-Alignment-HitTable.csv>")
